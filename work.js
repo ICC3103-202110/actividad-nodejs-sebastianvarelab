@@ -9,4 +9,7 @@ function fibonacci(number){
         return 1;
     }
 }
-
+var prompt = require ("prompt-sync")();
+var number= prompt("please enter a number")
+console.log("The result of your fibonacci number is:")
+console.log(fibonacci(number))
